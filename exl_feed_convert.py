@@ -4,7 +4,7 @@ import yaml
 import os
 import json
 
-JSON_FILE = open("json_data.json","r")
+JSON_FILE = open("feed.json","r")
 
 def _convert_file_to_yaml():
     __location__ = os.path.realpath(
